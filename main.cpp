@@ -194,5 +194,6 @@ int main() {
         turn = opponent(turn);
     }
     announceWinner(winner(board), computer, human);
+    std::cout << "END" << std::endl;
     return 0;
 }
